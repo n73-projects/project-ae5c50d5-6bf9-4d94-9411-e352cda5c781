@@ -41,7 +41,7 @@ function App() {
       <header className="border-b">
         <div className="container mx-auto px-4 py-6">
           <nav className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold">Agustin Fricke</h1>
+            <h1 className="text-2xl font-bold">John Doe</h1>
             <div className="flex gap-4">
               <Button variant="ghost" size="icon">
                 <Github className="h-5 w-5" />
@@ -88,11 +88,11 @@ function App() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Full-stack developer with experience building web applications for startups and
-                  enterprises. I work with modern frameworks and focus on writing clean, maintainable code.
+                  Full-stack developer with experience building web applications. Working with modern
+                  frameworks and focusing on writing clean, maintainable code.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
-                  I enjoy solving complex problems and building systems that scale. Always learning
+                  Solving complex problems and building systems that scale. Learning
                   new technologies and contributing to open-source projects.
                 </p>
                 <Button>
@@ -220,8 +220,8 @@ function App() {
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-3xl font-bold mb-6">Let's Work Together</h3>
             <p className="text-lg text-muted-foreground mb-8">
-              Open to new opportunities and interesting projects.
-              Let's discuss how we can work together.
+              Available for new opportunities and interesting projects.
+              Let's discuss potential collaboration.
             </p>
             <Button size="lg">
               <Mail className="mr-2 h-4 w-4" />
@@ -235,7 +235,7 @@ function App() {
       <footer className="border-t py-8">
         <div className="container mx-auto px-4">
           <div className="text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 Agustin Fricke. All rights reserved.</p>
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
           </div>
         </div>
       </footer>
