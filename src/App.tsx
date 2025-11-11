@@ -29,10 +29,10 @@ function App() {
   ];
 
   const skills = {
-    frontend: ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "SCSS"],
-    backend: ["Node.js", "Python", "Express.js", "FastAPI", "GraphQL", "REST APIs"],
-    database: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Prisma"],
-    tools: ["Git", "Docker", "AWS", "Vercel", "Jest", "Cypress"]
+    frontend: ["React", "TypeScript", "Tailwind CSS"],
+    backend: ["Python", "Go"],
+    database: ["SQL"],
+    tools: ["Docker", "Git"]
   };
 
   return (
@@ -64,8 +64,8 @@ function App() {
             Full Stack Developer
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Passionate about creating scalable web applications and delivering exceptional user experiences.
-            Specialized in modern JavaScript frameworks and cloud technologies.
+            Building scalable web applications with modern technologies.
+            Experienced in full-stack development and system design.
           </p>
           <div className="flex gap-4 justify-center">
             <Button size="lg">
@@ -88,14 +88,12 @@ function App() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-lg text-muted-foreground mb-6">
-                  With over 5 years of experience in full-stack development, I've worked with startups and
-                  enterprises to build robust, scalable web applications. My expertise spans across modern
-                  JavaScript frameworks, backend technologies, and cloud infrastructure.
+                  Full-stack developer with experience building web applications for startups and
+                  enterprises. I work with modern frameworks and focus on writing clean, maintainable code.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
-                  I believe in writing clean, maintainable code and staying up-to-date with the latest
-                  industry trends. When I'm not coding, you can find me contributing to open-source projects
-                  or exploring new technologies.
+                  I enjoy solving complex problems and building systems that scale. Always learning
+                  new technologies and contributing to open-source projects.
                 </p>
                 <Button>
                   <Github className="mr-2 h-4 w-4" />
@@ -107,28 +105,28 @@ function App() {
                   <Code2 className="h-8 w-8 text-primary" />
                   <div>
                     <h4 className="font-semibold">Frontend Development</h4>
-                    <p className="text-sm text-muted-foreground">React, TypeScript, Next.js</p>
+                    <p className="text-sm text-muted-foreground">React, TypeScript, Tailwind CSS</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <Server className="h-8 w-8 text-primary" />
                   <div>
                     <h4 className="font-semibold">Backend Development</h4>
-                    <p className="text-sm text-muted-foreground">Node.js, Python, APIs</p>
+                    <p className="text-sm text-muted-foreground">Python, Go</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <Database className="h-8 w-8 text-primary" />
                   <div>
-                    <h4 className="font-semibold">Database Design</h4>
-                    <p className="text-sm text-muted-foreground">PostgreSQL, MongoDB</p>
+                    <h4 className="font-semibold">Database</h4>
+                    <p className="text-sm text-muted-foreground">SQL</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <Globe className="h-8 w-8 text-primary" />
                   <div>
-                    <h4 className="font-semibold">Cloud & DevOps</h4>
-                    <p className="text-sm text-muted-foreground">AWS, Docker, CI/CD</p>
+                    <h4 className="font-semibold">DevOps</h4>
+                    <p className="text-sm text-muted-foreground">Docker, Git</p>
                   </div>
                 </div>
               </div>
@@ -168,7 +166,7 @@ function App() {
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold mb-4 text-primary">Tools & DevOps</h4>
+                <h4 className="font-semibold mb-4 text-primary">Tools</h4>
                 <div className="flex flex-wrap gap-2">
                   {skills.tools.map((skill) => (
                     <Badge key={skill} variant="secondary">{skill}</Badge>
@@ -222,8 +220,8 @@ function App() {
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-3xl font-bold mb-6">Let's Work Together</h3>
             <p className="text-lg text-muted-foreground mb-8">
-              I'm always interested in new opportunities and exciting projects.
-              Let's discuss how we can bring your ideas to life.
+              Open to new opportunities and interesting projects.
+              Let's discuss how we can work together.
             </p>
             <Button size="lg">
               <Mail className="mr-2 h-4 w-4" />
